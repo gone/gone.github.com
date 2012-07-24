@@ -155,8 +155,35 @@ h2 {
     margin: 0px auto;
 }
 
+#sections h2{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 60px;
+    background-image: url("stripe.png?q=1");
+    background-repeat: repeat-x;
+    color: white; 
+    text-align: center;
+    line-height: 60px;
+    border: 1px black solid;
+    outline: 1px #3C86C3 solid;
+    text-shadow: 0px 1px 0px black, 0px -1px 0px black;
+    font-size: 32px;
+}
+
+
 #contact{
     float: left;
+}
+
+#contact ul{
+    margin-left: 1em;
+}
+
+
+#contact li{
+    list-style:none
 }
 
 

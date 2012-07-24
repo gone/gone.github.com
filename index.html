@@ -33,13 +33,11 @@
     <div id="content">
       <div id="sections">
         {{#each sections}}
-        {{#view App.ButtonView contentBinding="this"}}
-        <h2>{{content.text}}</h2>
-        {{/view}}
+           <h2>{{text}}</h2>
         {{/each}}
       </div>
       <div id="contact">
-        <h2>Contact me!</h2>
+        <h2>Contact me</h2>
         <ul>
           <li>Twitter</li>
           <li>Blog</li>
