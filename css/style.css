@@ -87,7 +87,7 @@ a:hover { color: #036; }
 */
 
 body {
-    background-image:url('lightpaperfibers.png');
+    background-image:url('low_contrast_linen.png');
     height: 100%;
 }
 
@@ -97,13 +97,14 @@ h2 {
 
 #content {
     margin: 0px auto;
-    height: 100%;
+    min-height: 100%;
+    margin-left: 25px;
+    margin-right: 25px;
+
 }
 
 #content>div{
-    width: 350px;
-    margin-left: 150px;
-    margin-top: 60px;
+    margin-top: 30px;
     font-size: 40px;
 }
 
@@ -122,6 +123,7 @@ h2 {
 }
 
 #name{
+    text-shadow: 0px 2px 3px #555;
     font-size: 82px;
     text-align: center;
     margin-top: 30px;
@@ -161,18 +163,19 @@ h2 {
     margin-bottom: 20px;
     width: 200px;
     height: 60px;
-    background:  #b7ceb9;
+    background:  #FA9A00;
     color: white; 
     text-align: center;
     line-height: 60px;
     border: 1px black solid;
-    text-shadow: 0px 1px 0px black, 0px -1px 0px black,  1px 0px 0px black, -1px 0px 0px black;
+    text-shadow: 0px 2px 3px #555;
+    /* text-shadow: 0px 1px 0px black, 0px -1px 0px black,  1px 0px 0px black, -1px 0px 0px black; */
     font-size: 32px;
 }
 
 
 #contact{
-    float: left;
+    float: right;
 }
 
 #contact ul{
@@ -181,7 +184,8 @@ h2 {
 
 
 #contact li{
-    list-style:none
+    list-style:none;
+    font-size: 24px;
 }
 
 
